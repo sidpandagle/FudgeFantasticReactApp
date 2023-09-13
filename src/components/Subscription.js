@@ -14,10 +14,10 @@ function Subscription(props) {
         <div className="bg-[#1F1F36] rounded-lg p-14 md:p-16 flex-col  gap-10 text-center md:text-left md:flex-row md:gap-0 flex items-center justify-between">
             <div className="left">
                 <div className="mb-4 mb-10 text-4xl font-semibold md:text-5xl md:mb-0">
-                    Subscribe to our newsletter
+                    Subscribe to <br/> our newsletter
                 </div>
                 <div className="md:w-3/4">
-                    Subscribe to our newsletter to be the first to hear about important announcements, exciting
+                    Subscribe to our newsletter to be the first to hear about important announcements, <br /> exciting
                     giveaways/contests, new compilations, and more!
                 </div>
             </div>
