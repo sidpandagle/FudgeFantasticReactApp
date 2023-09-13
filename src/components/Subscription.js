@@ -1,10 +1,12 @@
 import { useState } from "react";
 
-function Subscription() {
+function Subscription(props) {
     const [subscribed, setSubscribed] = useState(false);
 
     const subscribe = () => {
+        console.log(props?.data)
         setSubscribed(!subscribed)
+        props.handleSubscribed(props?.data, !subscribed)
     }
 
     return (

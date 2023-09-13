@@ -15,10 +15,14 @@ function SubscriptionList() {
   const numberOfSlides = 4;
   const slides = [];
 
+  const handleSubscribed = (returnKey, isSubscribed) => {
+    alert((isSubscribed ? 'Subscribed' : 'Unsubscribed') + ' with key ' + returnKey)
+  }
+
   for (let i = 0; i < numberOfSlides; i++) {
     slides.push(
       <SwiperSlide key={i}>
-        <Subscription />
+        <Subscription data={i} handleSubscribed={handleSubscribed} />
       </SwiperSlide>
     )
   }
