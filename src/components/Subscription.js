@@ -16,8 +16,8 @@ function Subscription(props) {
                 <div className="mb-4 mb-10 text-4xl font-semibold md:text-5xl md:mb-0">
                     Subscribe to <br/> our newsletter
                 </div>
-                <div className="md:w-3/4">
-                    Subscribe to our newsletter to be the first to hear about important announcements, <br /> exciting
+                <div className="md:w-2/3">
+                    Subscribe to our newsletter to be the first to hear about important announcements, exciting
                     giveaways/contests, new compilations, and more!
                 </div>
             </div>
