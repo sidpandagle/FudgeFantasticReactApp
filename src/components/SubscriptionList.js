@@ -28,7 +28,7 @@ function SubscriptionList() {
   }
 
   return (
-    <div className="px-4 py-8 text-white pt -8 md:px-32 md:py-8">
+    <div className="px-4 py-8 text-white md:px-32 md:py-8">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}

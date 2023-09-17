@@ -1,7 +1,7 @@
 function Header() {
     return (
        
-      <div className=" z-10 flex flex-col items-center justify-between py-8 text-white md:px-32 md:py-8 md:flex-row sticky top-0 bg-[#131321]  bg-opacity-60 backdrop-blur-sm">
+      <div className=" z-10 flex flex-col items-center justify-between py-8 text-white md:px-32 md:py-8 md:flex-row sticky top-0 bg-[#131321]  bg-opacity-60 backdrop-blur-sm rounded-b-3xl">
       <div className="py-2 text-2xl font-semibold md:py-0">FudgeFantastic</div>
       <div className="flex flex-col items-center justify-between gap-6 md:gap-10 md:flex-row">
         <button className="text-lg hover:text-[#FE5163]">Button</button>

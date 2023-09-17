@@ -2,7 +2,7 @@ import React from 'react';
 import 'swiper/swiper-bundle.css';
 import PropTypes from 'prop-types'; // Import PropTypes for prop validation
 
-import bg1 from '../assets/bg1.jpeg';
+import bg1 from '../assets/bg1.jpg';
 import bg2 from '../assets/bg2.png';
 import bg3 from '../assets/bg3.png';
 import bg4 from '../assets/bg4.png';

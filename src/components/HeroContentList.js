@@ -15,7 +15,7 @@ import HeroContent from './HeroContent';
 function HeroContentList() {
 
   // code
-  const numberOfSlides = 4;
+  const numberOfSlides = 10;
   const slides = [];
 
   const handleSubscribed = (returnKey, isSubscribed) => {

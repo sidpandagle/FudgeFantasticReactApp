@@ -4,6 +4,7 @@ import SubscriptionList from './components/SubscriptionList';
 import Header from './components/Header';
 import HeroContent from './components/HeroContent';
 import HeroContentList from './components/HeroContentList';
+import SideContent from './components/SideContent';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       {/* <Perspective /> */}
       <HeroContentList />
+      <SideContent />
       <SubscriptionList />
       <Footer />
     </div>
