@@ -38,7 +38,7 @@ function HeroContent(props) {
   };
 
   return (
-    <div className="text-white md:pb-8 h-[90vh]" style={backgroundImgStyle}>
+    <div className="text-white pb-0 md:pb-8  h-[40vh] md:h-[80vh]  rounded-2xl" style={backgroundImgStyle}>
       {/* Content goes here */}
     </div>
   );

@@ -3,7 +3,7 @@ import bg3 from '../assets/bg3.png';
 
 function SideContent() {
   return (
-    <div className="pt-20 pb-10 text-white">
+    <div className="pt-20 pb-10 text-white ">
       <div className='flex items-center h-full px-4 pb-8 md:px-32 md:pb-1'>
         <div className='flex flex-col justify-center gap-6 '>
           <div className="text-6xl font-bold text-center md:text-left">

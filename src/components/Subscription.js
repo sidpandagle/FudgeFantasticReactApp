@@ -11,7 +11,7 @@ function Subscription(props) {
 
     return (
 
-        <div className="bg-[#1F1F36] rounded-lg p-14 md:p-16 flex-col  gap-10 text-center md:text-left md:flex-row md:gap-0 flex items-center justify-between">
+        <div className="bg-[#1F1F36] rounded-2xl p-14 md:p-16 flex-col  gap-10 text-center md:text-left md:flex-row md:gap-0 flex items-center justify-between">
             <div className="left">
                 <div className="mb-4 mb-10 text-4xl font-semibold md:text-5xl md:mb-0">
                     Subscribe to <br/> our newsletter

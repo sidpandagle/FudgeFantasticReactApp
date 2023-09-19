@@ -24,7 +24,8 @@ function HeroContentList() {
 
   for (let i = 0; i < numberOfSlides; i++) {
     slides.push(
-      <SwiperSlide key={i}>
+      <SwiperSlide key={i} className='px-4 md:px-32'
+      >
         <HeroContent data={i} index={i} handleSubscribed={handleSubscribed} />
       </SwiperSlide>
     )
@@ -36,6 +37,7 @@ function HeroContentList() {
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={50}
         speed={1000}
+        loop={true}
         autoplay={{ delay: 6000, disableOnInteraction: false, }}
         slidesPerView={1}
         onSwiper={(swiper) => console.log(swiper)}
